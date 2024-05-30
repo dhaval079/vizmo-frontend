@@ -1,6 +1,7 @@
 # Blog-App
 
-A responsive blog platform with rich text editing, allowing users to create, and view posts. Built for a Vizmo frontend technical assessment, it focuses on clean, efficient development and uses localStorage for data persistence.
+
+This project involves developing a responsive blogging platform that incorporates advanced rich text editing functionalities, allowing users to both create and view posts seamlessly. Tailored for a Vizmo frontend technical assessment, the platform emphasizes streamlined and efficient code development. Additionally, it leverages localStorage to ensure robust data persistence, providing a reliable user experience.
 
 
 ## Getting Started
