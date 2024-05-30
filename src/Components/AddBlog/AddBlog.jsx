@@ -143,7 +143,7 @@ const AddBlog = () => {
   }, []);
 
   return (
-    <form onSubmit={addBlog} className="p-1.5 pt-2.5 pb-1 max-w-2xl mx-auto">
+    <form onSubmit={addBlog} className="p-1.5 pt-2.5 pb-1 max-w-2xl mx-auto bg-gray-50 p-10 w-full h-full">
       <h5 className="font-bold text-gray-800 text-lg">Add a Blog!</h5>
       <div className="rounded-lg p-2 mt-4 ring-1 ring-gray-200 sm:p-2.5 min-h-[23rem]">
         <div className="rounded-lg w-full flex flex-col gap-2 justify-center items-center h-[13.5rem]">
@@ -201,14 +201,14 @@ const AddBlog = () => {
                 onChange={(e) => setTitle(e.target.value)}
                 required
                 placeholder="Add a Title"
-                className="font-semibold min-h-[3rem] w-full text-base items-center placeholder-black text-black outline-0 border-0"
+                className="font-semibold min-h-[3rem] w-full p-5 text-base items-center placeholder-black text-black outline-0 border-0"
               />
             </div>
           </div>
           <div>
             <label className="text-xs text-gray-600">Content</label>
             <ReactQuill
-              className="mt-1 min-w-[300px]"
+              className="mt-1 min-w-[300px] "
               placeholder="Write something..."
               theme="snow"
               onChange={handleContentChange}
@@ -287,7 +287,7 @@ const AddBlog = () => {
               </div>
               <div className="flex flex-col gap-2">
                 <label className="text-xs text-gray-600" htmlFor="author">
-                  Author
+                  Writer
                 </label>
                 <input
                   placeholder="Enter Author's Name"

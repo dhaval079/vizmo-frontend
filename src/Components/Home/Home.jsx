@@ -33,10 +33,14 @@ const Home = () => {
     );
   } else {
     return (
-      <div className="p-2 pb-4 sm:pb-5 sm:p-2.5">
-        <h1 className="font-extrabold text-gray-800 text-lg mb-4">
-          Latest Post
+      <div className="p-2 pb-4 sm:pb-5 sm:p-2.5 p-10">
+      <h1 className="font-extrabold text-gray-800 justify-center  text-center my-10 mb-10 mx-auto  text-lg mb-4">
+          Blog Website by <a href="https://github.com/dhaval079" className="text-blue-900">@dhaval079</a>
         </h1>
+        <h2 className="font-extrabold text-gray-800 justify-center  text-center my-10 mb-10 mx-auto  text-lg mb-4">
+          Recent Posts 
+        </h2>
+        <br></br>
         <section
           className={`grid items-stretch place-items-center mx-auto gap-10 ${styles.blogsGrid}`}
         >
@@ -56,10 +60,9 @@ const Home = () => {
           })}
           <div
             onClick={() => navigate("/add-blog")}
-            className="rounded-lg transition-all cursor-pointer active:scale-[0.96] min-h-[23rem] flex justify-center flex-col gap-4 items-center p-2 ring-1 ring-gray-200 w-[20rem] max-w-xs"
+            className="rounded-lg transition-all cursor-pointer active:scale-[0.96] min-h-[23rem] flex justify-center flex-col gap-4 items-center p-2 ring-1 ring-blue-200 w-[20rem] max-w-xs"
           >
-            <img src="/assets/add.png" alt="Add a Blog" className="w-20 transition-all hover:scale-[0.98]" />
-            <span className="font-medium transition-all hover:scale-[0.98]">Post a Blog</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-notebook-pen"><path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"/><path d="M2 6h4"/><path d="M2 10h4"/><path d="M2 14h4"/><path d="M2 18h4"/><path d="M18.4 2.6a2.17 2.17 0 0 1 3 3L16 11l-4 1 1-4Z"/></svg>            <span className="font-medium transition-all hover:scale-[0.98]">Post a Blog</span>
           </div>
         </section>
       </div>
