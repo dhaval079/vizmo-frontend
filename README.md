@@ -33,6 +33,4 @@ This project involves developing a responsive blogging platform that incorporate
 
 #
 
-This project is based on React and utilizes Vite for fast development and bundling. Happy coding! 🚀
-
-#### Deployed Link - https://blog-app-abhay.vercel.app/
+#### Deployed Link - [https://blog-app-abhay.vercel.app/](https://vizmo-frontend.vercel.app/)
