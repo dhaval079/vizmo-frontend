@@ -33,4 +33,4 @@ This project involves developing a responsive blogging platform that incorporate
 
 #
 
-#### Deployed Link - [https://blog-app-abhay.vercel.app/](https://vizmo-frontend.vercel.app/)
+#### Deployed Link - [https://vizmo-frontend.vercel.app/](https://vizmo-frontend.vercel.app/)
